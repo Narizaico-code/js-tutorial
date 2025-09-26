@@ -18,4 +18,4 @@ const precioFinal = calcularDescuento(precioOriginal, porcentajeDescuento);
 
 console.log("Precio original: Q" + precioOriginal);
 console.log("Descuento: " + porcentajeDescuento + "%");
-console.log("Precio con descuento: Q" + precioFinal);
+console.log("Precio con descuento: Q" + precioFinal);25
