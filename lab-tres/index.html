@@ -1,32 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu principal</title>
+    <title>Ejercicios JavaScript</title>
     <style>
-        body{
-            background-color:blanchedalmond;
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
         }
-        h1{
-            color: blueviolet;
+        h1 {
+            color: #333;
+            text-align: center;
         }
-        div{
-            position: fixed;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50% , -50%);
+        .ejercicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .ejercicio {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s;
+        }
+        .ejercicio:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
         }
     </style>
 </head>
 <body>
-    <div>
-        <header>
-            <h1>Menu principal</h1>
-            <li>
-                <a href="1-signo-numero.html">Ver si un numero es positivo</a>
-            </li>
-        </header>
+    <h1>Ejercicios JavaScript</h1>
+    <div class="ejercicios">
+        <a href="1-signo-numero.html" class="ejercicio">
+            <h3>Ejercicio 1</h3>
+            <p>Evaluar número (Positivo/Negativo/Cero)</p>
+        </a>
+        <a href="2-mayor-edad.html" class="ejercicio">
+            <h3>Ejercicio 2</h3>
+            <p>Mayor o menor de edad</p>
+        </a>
+        <a href="11-uno-al-cien.html" class="ejercicio">
+            <h3>Ejercicio 11</h3>
+            <p>Números del 1 al 100</p>
+        </a>
+        <a href="12-suma-numeros.html" class="ejercicio">
+            <h3>Ejercicio 12</h3>
+            <p>Suma del 1 al 50</p>
+        </a>
+        <a href="21-numeros-pares.html" class="ejercicio">
+            <h3>Ejercicio 21</h3>
+            <p>Obtener números pares</p>
+        </a>
+        <a href="22-fizz-buzz.html" class="ejercicio">
+            <h3>Ejercicio 22</h3>
+            <p>FizzBuzz del 1 al 100</p>
+        </a>
     </div>
 </body>
 </html>
