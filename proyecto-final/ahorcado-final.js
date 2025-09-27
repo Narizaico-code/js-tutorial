@@ -11,9 +11,9 @@ const vectorPalabras = ["Manzana","Banano", "Spring", "Java", "Computadora", "Te
     "Pantalla", "Celular", "Programación", "Estados Unidos", "Guatemala", "Perro", 
     "Gato", "Elefante", "Cocodrilo", "Murciélago", "Desarrollo", "Diseño", "Internet"];
 var array = [];
-var imagenes = ["/proyecto-final/ahorcadoImagenes/ahorcadoBase-sin-fondo.png", "/proyecto-final/ahorcadoImagenes/ahorcadoCabeza-sin-fondo.png", 
-    "/proyecto-final/ahorcadoImagenes/ahorcadoTorzo-sin-fondo.png", "/proyecto-final/ahorcadoImagenes/ahorcadoPieIzquierdo-sin-fondo.png", "/proyecto-final/ahorcadoImagenes/ahorcadoPieDerecho-sin-fondo.png", "/proyecto-final/ahorcadoImagenes/ahorcadoManoIzquierda-sin-fondo.png",
-    "/proyecto-final/ahorcadoImagenes/ahorcadoCompleto-sin-fondo.png"];
+var imagenes = ["./ahorcadoImagenes/ahorcadoBase-sin-fondo.png", "./ahorcadoImagenes/ahorcadoCabeza-sin-fondo.png", 
+    "./ahorcadoImagenes/ahorcadoTorzo-sin-fondo.png", "./ahorcadoImagenes/ahorcadoPieIzquierdo-sin-fondo.png", "./ahorcadoImagenes/ahorcadoPieDerecho-sin-fondo.png", "./ahorcadoImagenes/ahorcadoManoIzquierda-sin-fondo.png",
+    "./ahorcadoImagenes/ahorcadoCompleto-sin-fondo.png"];
 // console.log(vectorPalabras.length);
 
 function iniciarJuego() {
