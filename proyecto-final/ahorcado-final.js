@@ -23,6 +23,7 @@ function iniciarJuego() {
         header.setAttribute("class", "titulo");
         header.innerHTML = "<h1 class='probando'>Juego del Ahorcado</h1>";
         document.body.appendChild(header);
+        creacionElementos(0);
     }
 }
 
